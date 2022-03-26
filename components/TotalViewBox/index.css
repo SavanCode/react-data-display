@@ -1,0 +1,81 @@
+.boxall {
+  border: 1px solid rgba(25, 186, 139, 0.17);
+  padding: 0 0.2rem 0.2rem 0.2rem;
+  background: rgba(255, 255, 255, 0.04) url(../images/line.png);
+  background-size: 100% auto;
+  position: relative;
+  margin-bottom: 0.15rem;
+  z-index: 10;
+}
+.boxall:before,
+.boxall:after {
+  position: absolute;
+  width: 0.1rem;
+  height: 0.1rem;
+  content: '';
+  border-top: 2px solid #02a6b5;
+  top: 0;
+}
+.boxall:before,
+.boxfoot:before {
+  border-left: 2px solid #02a6b5;
+  left: 0;
+}
+.boxall:after,
+.boxfoot:after {
+  border-right: 2px solid #02a6b5;
+  right: 0;
+}
+.alltitle {
+  font-size: 0.18rem;
+  color: #fff;
+  line-height: 0.4rem;
+  border-bottom: 1px dotted rgba(255, 255, 255, 0.2);
+}
+.sycm ul {
+  padding: 0.16rem 0;
+  width: 100%;
+}
+.sycm li {
+  float: left;
+  width: 25%;
+  text-align: center;
+  position: relative;
+}
+.sycm li:before {
+  position: absolute;
+  content: '';
+  height: 30%;
+  width: 1px;
+  background: rgba(255, 255, 255, 0.1);
+  right: 0;
+  top: 15%;
+}
+.sycm {
+  height: 80%;
+  display: flex;
+  align-items: center;
+}
+.sycm li:last-child:before,
+.sycm2 li:nth-child(3):before {
+  width: 0;
+}
+
+.sycm li h2 {
+  font-size: 0.3rem;
+  color: #46b8ff;
+  padding-bottom: 0.2rem;
+}
+.sycm li span {
+  font-size: 0.2rem;
+  /* color: #fff; */
+  opacity: 0.5;
+}
+.clearfix:after,
+.clearfix:before {
+  display: table;
+  content: ' ';
+}
+.clearfix:after {
+  clear: both;
+}
