@@ -4,7 +4,9 @@ import News from './news_autoRun';
 import Top5List from '../components/Top5List';
 import CompanyList from '../components/CompanyList';
 import TotalViewBox from '../components/TotalViewBox';
-// import List from '../components/List2'; 这里有一个的冲撞
+import DetailList from '../components/DetailList';
+// 这里有一个的冲撞
+// import List from '../components/List2';
 export default function App() {
   return (
     <div>
@@ -13,6 +15,7 @@ export default function App() {
       <CompanyList />
       <TotalViewBox />
       {/* <List /> */}
+      <DetailList />
     </div>
   );
 }
