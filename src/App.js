@@ -5,6 +5,7 @@ import Top5List from '../components/Top5List';
 import CompanyList from '../components/CompanyList';
 import TotalViewBox from '../components/TotalViewBox';
 import DetailList from '../components/DetailList';
+import Topblock from '../components/TopBlock';
 // 这里有一个的冲撞
 // import List from '../components/List2';
 export default function App() {
@@ -16,6 +17,7 @@ export default function App() {
       <TotalViewBox />
       {/* <List /> */}
       <DetailList />
+      <Topblock />
     </div>
   );
 }

@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <div className="right-top public-bg">
-        <div className="public-title">水质污染TOP5</div>
+        <div className="public-title">TOP5</div>
         <div className="title-nav">
           <div className="top5-ul">
             <ul>
